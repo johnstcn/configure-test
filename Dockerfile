@@ -1,5 +1,7 @@
 FROM codercom/enterprise-base:ubuntu
 
 USER root
-ADD configure /configure
+RUN mkdir -p /coder
+ADD configure /coder/configure
+RUN chmod +x /coder/configure
 USER coder
