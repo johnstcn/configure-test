@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo "id -u: $(id -u)"
+echo "id -g: $(id -g)"
+echo "coder: $(which coder)"
+echo "path : $PATH"
+
